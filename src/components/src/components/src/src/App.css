@@ -1,0 +1,9 @@
+.app { max-width: 800px; margin: 0 auto; padding: 24px 16px; font-family: system-ui, sans-serif; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.card, .contact-card { border: 1px solid #ddd; border-radius: 8px; padding: 16px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.status { color: #777; }
+.status.liked { color: #d6336c; font-weight: 600; }
+.contact-form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+input { padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+button { padding: 10px 14px; border: none; border-radius: 6px; background: #4c6ef5; color: #fff; font-size: 15px; cursor: pointer; }
+button:hover { background: #3b5bdb; }
